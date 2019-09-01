@@ -5,6 +5,6 @@ import router from './router'
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  render: h => h(App)
+  router,// registrovanje rutera tj router: router iliti po es6 router. Elem, sa svakim instanciranjem Vue registrujemo i ruter
+  render: h => h(App) 
 }).$mount('#app')
